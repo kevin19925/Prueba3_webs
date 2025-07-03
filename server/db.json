@@ -104,6 +104,14 @@
       "subtipos": ["acumulacion_frecuente"]
     }
   },
+  "subtiposPunto": {
+    "fijo": "Contenedor fijo en una ubicación específica",
+    "movil": "Contenedor móvil que se puede desplazar",
+    "contenedores_diferenciados": "Contenedores para diferentes tipos de reciclaje",
+    "punto_pequeño": "Pequeño punto de recolección de reciclaje",
+    "centro_acopio": "Centro de acopio especializado para residuos peligrosos",
+    "acumulacion_frecuente": "Zona con acumulación frecuente de basura"
+  },
   "estados": [
     "activo",
     "dañado", 
