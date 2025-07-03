@@ -166,5 +166,18 @@
       "nombre": "En Mantenimiento",
       "descripcion": "Punto de recolección temporalmente fuera de servicio"
     }
+  ],
+  "historialPuntos": [
+    {
+      "id": "h-001",
+      "puntoId": "pr-003",
+      "fechaCambio": "2025-02-15T16:45:00Z",
+      "tipoAccion": "actualizacion",
+      "campo": "estado",
+      "valorAnterior": "activo",
+      "valorNuevo": "dañado",
+      "observaciones": "Contenedor vandalizado, requiere reparación",
+      "usuario": "admin"
+    }
   ]
 }
