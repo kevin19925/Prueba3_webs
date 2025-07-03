@@ -57,65 +57,114 @@
       }
     }
   ],
-  "tiposPunto": {
-    "contenedor_basura": {
+  "tiposPunto": [
+    {
+      "id": "c-1",
       "nombre": "Contenedores de Basura",
       "descripcion": "Contenedores instalados en parques, esquinas, etc.",
       "subtipos": ["fijo"]
     },
-    "reciclaje": {
+    {
+      "id": "c-2",
       "nombre": "Puntos de Reciclaje",
       "descripcion": "Contenedores diferenciados o pequeños puntos de recolección",
       "subtipos": ["contenedores_diferenciados", "punto_pequeño"]
     },
-    "residuos_voluminosos": {
+    {
+      "id": "c-3",
       "nombre": "Recolección de Residuos Voluminosos",
       "descripcion": "Puntos para residuos de gran tamaño",
       "subtipos": ["fijo", "movil"]
     },
-    "residuos_peligrosos": {
+    {
+      "id": "c-4",
       "nombre": "Recolección de Residuos Peligrosos",
       "descripcion": "Puntos especializados para residuos peligrosos",
       "subtipos": ["fijo", "movil", "centro_acopio"]
     },
-    "residuos_organicos": {
+    {
+      "id": "c-5",
       "nombre": "Recolección de Residuos Orgánicos",
       "descripcion": "Puntos para compostaje y residuos orgánicos",
       "subtipos": ["fijo", "movil"]
     },
-    "residuos_electronicos": {
+    {
+      "id": "c-6",
       "nombre": "Recolección de Residuos Electrónicos",
       "descripcion": "Puntos para dispositivos electrónicos",
       "subtipos": ["fijo", "movil"]
     },
-    "residuos_textiles": {
+    {
+      "id": "c-7",
       "nombre": "Recolección de Residuos Textiles",
       "descripcion": "Puntos para ropa y textiles",
       "subtipos": ["fijo", "movil"]
     },
-    "residuos_peligrosos_especiales": {
+    {
+      "id": "c-8",
       "nombre": "Recolección de Residuos Peligrosos Especiales",
       "descripcion": "Puntos para residuos altamente peligrosos",
       "subtipos": ["fijo", "movil", "centro_acopio"]
     },
-    "punto_critico": {
+    {
+      "id": "c-9",
       "nombre": "Puntos Críticos",
       "descripcion": "Lugares identificados con acumulación frecuente de basura",
       "subtipos": ["acumulacion_frecuente"]
     }
-  },
-  "subtiposPunto": {
-    "fijo": "Contenedor fijo en una ubicación específica",
-    "movil": "Contenedor móvil que se puede desplazar",
-    "contenedores_diferenciados": "Contenedores para diferentes tipos de reciclaje",
-    "punto_pequeño": "Pequeño punto de recolección de reciclaje",
-    "centro_acopio": "Centro de acopio especializado para residuos peligrosos",
-    "acumulacion_frecuente": "Zona con acumulación frecuente de basura"
-  },
+  ],
+  "subtiposPunto": [
+    {
+      "id": "s-1",
+      "nombre": "Fijo",
+      "descripcion": "Contenedor fijo en una ubicación específica"
+    },
+    {
+      "id": "s-2",
+      "nombre": "Móvil",
+      "descripcion": "Contenedor móvil que se puede desplazar"
+    },
+    {
+      "id": "s-3",
+      "nombre": "Contenedores Diferenciados",
+      "descripcion": "Contenedores para diferentes tipos de reciclaje"
+    },
+    {
+      "id": "s-4",
+      "nombre": "Punto Pequeño",
+      "descripcion": "Pequeño punto de recolección de reciclaje"
+    },
+    {
+      "id": "s-5",
+      "nombre": "Centro de Acopio",
+      "descripcion": "Centro de acopio especializado para residuos peligrosos"
+    },
+    {
+      "id": "s-6",
+      "nombre": "Acumulación Frecuente",
+      "descripcion": "Zona con acumulación frecuente de basura"
+    }
+  ],
   "estados": [
-    "activo",
-    "dañado", 
-    "retirado",
-    "en_mantenimiento"
+    {
+      "id": "e-1",
+      "nombre": "Activo",
+      "descripcion": "Punto de recolección en funcionamiento normal"
+    },
+    {
+      "id": "e-2",
+      "nombre": "Dañado",
+      "descripcion": "Punto de recolección que requiere reparación"
+    },
+    {
+      "id": "e-3",
+      "nombre": "Retirado",
+      "descripcion": "Punto de recolección que ha sido removido"
+    },
+    {
+      "id": "e-4",
+      "nombre": "En Mantenimiento",
+      "descripcion": "Punto de recolección temporalmente fuera de servicio"
+    }
   ]
 }
