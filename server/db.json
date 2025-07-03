@@ -1,0 +1,113 @@
+{
+  "puntosRecoleccion": [
+    {
+      "id": "pr-001",
+      "direccion": "Av. Principal 123, Parque Central",
+      "tipo": "contenedor_basura",
+      "subtipo": "fijo",
+      "estado": "activo",
+      "observaciones": "",
+      "fechaCreacion": "2025-01-15T10:00:00Z",
+      "fechaActualizacion": "2025-01-15T10:00:00Z",
+      "coordenadas": {
+        "latitud": -0.1807,
+        "longitud": -78.4678
+      }
+    },
+    {
+      "id": "pr-002",
+      "direccion": "Calle San Martín 456, esquina Bolívar",
+      "tipo": "reciclaje",
+      "subtipo": "contenedores_diferenciados",
+      "estado": "activo",
+      "observaciones": "Contenedores para papel, vidrio y plástico",
+      "fechaCreacion": "2025-01-20T14:30:00Z",
+      "fechaActualizacion": "2025-01-20T14:30:00Z",
+      "coordenadas": {
+        "latitud": -0.1820,
+        "longitud": -78.4690
+      }
+    },
+    {
+      "id": "pr-003",
+      "direccion": "Av. 6 de Diciembre 789",
+      "tipo": "residuos_voluminosos",
+      "subtipo": "movil",
+      "estado": "dañado",
+      "observaciones": "Contenedor vandalizado, requiere reparación",
+      "fechaCreacion": "2025-02-01T08:15:00Z",
+      "fechaActualizacion": "2025-02-15T16:45:00Z",
+      "coordenadas": {
+        "latitud": -0.1850,
+        "longitud": -78.4700
+      }
+    },
+    {
+      "id": "pr-004",
+      "direccion": "Plaza de La Independencia",
+      "tipo": "punto_critico",
+      "subtipo": "acumulacion_frecuente",
+      "estado": "activo",
+      "observaciones": "Zona con acumulación frecuente de basura fuera de contenedores",
+      "fechaCreacion": "2025-02-10T11:20:00Z",
+      "fechaActualizacion": "2025-02-10T11:20:00Z",
+      "coordenadas": {
+        "latitud": -0.1830,
+        "longitud": -78.4720
+      }
+    }
+  ],
+  "tiposPunto": {
+    "contenedor_basura": {
+      "nombre": "Contenedores de Basura",
+      "descripcion": "Contenedores instalados en parques, esquinas, etc.",
+      "subtipos": ["fijo"]
+    },
+    "reciclaje": {
+      "nombre": "Puntos de Reciclaje",
+      "descripcion": "Contenedores diferenciados o pequeños puntos de recolección",
+      "subtipos": ["contenedores_diferenciados", "punto_pequeño"]
+    },
+    "residuos_voluminosos": {
+      "nombre": "Recolección de Residuos Voluminosos",
+      "descripcion": "Puntos para residuos de gran tamaño",
+      "subtipos": ["fijo", "movil"]
+    },
+    "residuos_peligrosos": {
+      "nombre": "Recolección de Residuos Peligrosos",
+      "descripcion": "Puntos especializados para residuos peligrosos",
+      "subtipos": ["fijo", "movil", "centro_acopio"]
+    },
+    "residuos_organicos": {
+      "nombre": "Recolección de Residuos Orgánicos",
+      "descripcion": "Puntos para compostaje y residuos orgánicos",
+      "subtipos": ["fijo", "movil"]
+    },
+    "residuos_electronicos": {
+      "nombre": "Recolección de Residuos Electrónicos",
+      "descripcion": "Puntos para dispositivos electrónicos",
+      "subtipos": ["fijo", "movil"]
+    },
+    "residuos_textiles": {
+      "nombre": "Recolección de Residuos Textiles",
+      "descripcion": "Puntos para ropa y textiles",
+      "subtipos": ["fijo", "movil"]
+    },
+    "residuos_peligrosos_especiales": {
+      "nombre": "Recolección de Residuos Peligrosos Especiales",
+      "descripcion": "Puntos para residuos altamente peligrosos",
+      "subtipos": ["fijo", "movil", "centro_acopio"]
+    },
+    "punto_critico": {
+      "nombre": "Puntos Críticos",
+      "descripcion": "Lugares identificados con acumulación frecuente de basura",
+      "subtipos": ["acumulacion_frecuente"]
+    }
+  },
+  "estados": [
+    "activo",
+    "dañado", 
+    "retirado",
+    "en_mantenimiento"
+  ]
+}
